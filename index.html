@@ -3,32 +3,54 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
-    <title> Learning HTML</title>
+    <title> Mario Club</title>
 </head>
 
 <body>
-    <h1>CSS basics</h1>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum</p>
-
-    <div>
-        <h2>Ninjas available for hire</h2>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
-            at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-            as opposed to using 'Content here, content here', making it look like readable English. Many desktop
-            publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for
-            'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    <header>
+        <h1>Mario Club</h1>
+    </header>
+    <section class="banner">
+        <img src="img/banner.png" alt="mario club banner">
+        <div class="welcome">
+            <h2>Welcome to <br><span>Marioclub</span></h2>
+        </div>
+    </section>
+    <nav class="main-nav">
         <ul>
-            <li>Ninja Yoshi</li>
-            <li>Ninja Mario</li>
-            <li>Ninja Shaun</li>
+            <li><a href="/join.html" class="join">Join</a></li>
+            <li><a href="/news.html">Latest News</a></li>
+            <li><a href="/games.html">New games</a></li>
+            <li><a href="/contact.html">Contact</a></li>
         </ul>
-    </div>
+    </nav>
+    <main>
+        <article>
+            <h2>It's me Mario</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, est, quasi dicta dolores repudiandae
+                officiis quam assumenda ducimus esse repellat iusto quidem. Assumenda earum sit sed inventore laudantium
+                pariatur incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat blanditiis, quisquam
+                unde nemo adipisci consequuntur ratione quaerat, ad accusantium alias repellat nesciunt dolorem esse et!
+                Facilis earum dignissimos eius eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                praesentium fugiat laudantium aliquam nihil voluptate. Quisquam consequatur harum iusto sapiente
+                laboriosam blanditiis adipisci libero atque rerum aliquam consequuntur, sequi repudiandae.</p>
+        </article>
+        <ul class="images">
+            <li><img src="img/thumb-1.png" alt="image thumb-1"></li>
+            <li><img src="img/thumb-2.png" alt="image thumb-2"></li>
+        </ul>
+    </main>
+    <section class="join">
+        <h2>Join today</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur itaque at ex dicta quisquam, architecto
+            ipsam odit dolorum facilis blanditiis commodi quia</p>
+        <form>
+            <input type="email" name="email" placeholder="Type email & hit enter" required>
+        </form>
+    </section>
+    <footer>
+        <p class="copyright">Copyright 2019 Marioclub</p>
+    </footer>
 </body>
 
 </html>
